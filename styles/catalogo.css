@@ -1,0 +1,234 @@
+.body{
+    position:absolute;
+    width: 100%;
+}
+
+
+
+/* aca comienza mi ccs del header */
+.tiempos{
+    background-color: #e8bae8;
+    text-align: center;
+    margin-top: 2px;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+#bs {
+   font-size: 30px;
+}
+#bag{
+   position: absolute;
+   right: 120px;
+    font-size: 40px;
+    background: #e8bae8;
+    border-radius: 50px ;
+
+
+}
+#nav1{ position: absolute;
+right: 300px;
+font-size:x-large;
+font-weight: bold;
+}
+
+#buscador{
+   display: flex;
+   margin-left: 60px;
+
+}
+
+
+#us{
+    position: absolute;
+    right: 50px;
+    font-size: 40px;
+    background: #e8bae8;
+    border-radius: 20px ;
+
+}
+
+#in{
+    position: absolute;
+    left: 720px;
+     font-size: 20px;
+    
+
+ }
+/* navegador 2*/
+.navegador2{
+    display: flex;
+    height: 40px;
+    background-color:#fcbdf2;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* catalogo */
+.catalogo{
+    position: relative;
+    background-color: hsl(316, 47%, 79%);
+background-size: 10px;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 15px;
+left: 300px;}
+
+
+#productos {
+    position: relative;
+
+     width: 100%;
+     display: flex;
+     left: 200px;
+      
+}
+/*tablas */
+.tabl{
+    position: relative;
+    background-color: hsl(316, 47%, 79%);
+background-size: 10px;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 15px;
+left: 300px;  
+}
+
+.table{
+    position: relative;
+    background-color: hsl(316, 47%, 79%);
+background-size: 10px;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 15px;
+
+}
+
+/**comienza mi ccs pie de pagina parte1**/
+
+
+#piepagina{
+    align-items: center;
+    position: absolute ;
+    width: 100%;
+    right: 3px;
+    top: 1200px;
+    background-color: hwb(301 44% 9% / 0.822);
+    
+}
+.siguenos{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.redes{
+    
+    display: flex;
+    font-size: 40px;
+    top: 10px;
+    gap: 20px;
+    align-items: center;
+        
+}
+.segmento1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    align-items: center;
+    font-family: 'Inspiration', cursive;
+font-family: 'Instrument Serif', serif;
+
+}
+.segmento2{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        
+}
+
+.segmento2 div{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Instrument Serif', serif;
+
+}
+
+.masdirecciones{
+    position: relative;
+    padding: 10px 15px;
+    border:none;
+    outline:none;
+    background: #350642;
+    color: #dcc2e4;
+    transition: .5s;
+    overflow:hidden ;
+
+}
+.masdirecciones:hover{
+    color:#fff ;
+}
+.masdirecciones span{
+    position: absolute;
+    background-color: #fff;
+    transition: .5s;
+}
+.masdirecciones span:nth-child(1){
+    width: 100%;
+    height: 1px;
+    left: -100%;
+    top: 0;    
+}
+.masdirecciones span:nth-child(2){
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+}
+.masdirecciones span:nth-child(3){
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;    
+}
+    
+.masdirecciones span:nth-child(4){
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+.masdirecciones:hover span:nth-child(1){
+    left:0;
+}
+.masdirecciones:hover span:nth-child(2){
+    right: 0;
+}
+.masdirecciones:hover span:nth-child(3){
+    bottom: 0;
+}
+.masdirecciones:hover span:nth-child(4){
+    top: 0;
+}
+  
+
+
+
+   
+
+.pyp {font-size: 50px;
+display: flex;
+justify-content: center;}
+
+.vs{font-size: 50px;
+    display: flex;
+    justify-content: center;}
+
+.mt{font-size: 50px;
+    display: flex;
+    justify-content: center;}
+
