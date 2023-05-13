@@ -1,0 +1,345 @@
+.body{
+    position:absolute;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+
+/* aca comienza mi ccs del header */
+.tiempos{
+    background-color: #e8bae8;
+    text-align: center;
+    margin-top: 2px;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+#bs {
+   font-size: 30px;
+}
+#bag{
+   position: absolute;
+   right: 120px;
+    font-size: 40px;
+    background: #e8bae8;
+    border-radius: 50px ;
+
+
+}
+#nav1{ position: absolute;
+right: 300px;
+font-size:x-large;
+font-weight: bold;
+}
+
+#buscador{
+   display: flex;
+   margin-left: 60px;
+
+}
+
+
+#us{
+    position: absolute;
+    right: 50px;
+    font-size: 40px;
+    background: #e8bae8;
+    border-radius: 20px ;
+
+}
+
+#in{
+    position: absolute;
+    left: 720px;
+     font-size: 20px;
+    
+
+ }
+/* navegador 2*/
+.navegador2{
+    display: flex;
+    height: 40px;
+    background-color:#fcbdf2;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* slidebar */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar{
+    overflow: 100px ;
+    position: absolute;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: rgb(144, 5, 139);
+    transition: all .5s ease;
+}
+.sidebar header{
+    overflow: auto;
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 70px;
+    background:#8f1691;
+    user-select: none;
+
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100px;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: whitesmoke;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid #fb6ed1cf;
+    border-bottom: 1px solid #851a79;
+    transition: .4s;
+}
+ ul li:hover a{
+    padding-left: 50px;
+
+
+ }
+ .sidebar ul i a{
+    margin-right: 16px;
+ }
+/* seccion ubicanos */
+.ubicanos{
+    position: relative;
+    background-color: hsl(316, 47%, 79%);
+background-size: 10px;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 15px;
+left: 300px;
+text-decoration: none;}
+
+
+.maps{
+    position: relative;
+    bottom: -50px;
+    left: 350px;
+    margin-top: 10px;
+
+}
+.tarjetasd{
+
+    position: relative;
+    display: flex;
+    bottom: -50px;
+    left: 350px;
+    margin-top: 10px;
+    }
+
+    /* seccion nosotros */
+    .us{
+    position: relative ;
+    background-color: hsl(316, 47%, 79%);
+    background-size: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 15px;
+
+    ;
+    }
+
+    .video{
+        position:relative;
+     left: 275px;
+    }
+
+  /* eventos */
+.eventos{
+    position: relative;
+    bottom: 40px;
+    background-color: hsl(316, 47%, 79%);
+background-size: 20px;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 15px;
+top: 20px;  }
+
+.perrito{
+    position: relative;
+
+    top:10px;
+}
+
+/* registrarse */
+#form-registro{
+    position: relative;
+    
+   top: 150px;
+    background: hsl(287, 27%, 56%);
+    opacity: 95%;    
+    border-radius: 10px;
+    color: whitesmoke ;}
+    #validationServerUsernameFeedback{
+        color: #dcc2e4;
+    }
+    #validationServer03Feedback{
+        color: #dcc2e4;
+    
+    }
+    #validationServer04Feedback{
+        color: #dcc2e4;  }
+    #validationServer05Feedback{
+        color:#dcc2e4 ;
+    }
+     #terminos
+    {
+    color:#dcc2e4 ;
+
+    }
+    #invalidCheck3Feedback{
+        color:#dcc2e4 ;
+
+    }
+
+.registrate{
+    position: relative;
+    top: 100px;
+    background-color: hsl(316, 47%, 79%);
+    
+ 
+}
+
+/**comienza mi ccs pie de pagina parte1**/
+
+
+#piepagina{
+    align-items: center;
+    position: absolute ;
+    width: 100%;
+    right: 3px;
+    top: 3200px;
+    background-color: hwb(301 44% 9% / 0.822);
+    
+}
+.siguenos{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.redes{
+    
+    display: flex;
+    font-size: 40px;
+    top: 10px;
+    gap: 20px;
+    align-items: center;
+        
+}
+.segmento1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    align-items: center;
+    font-family: 'Inspiration', cursive;
+font-family: 'Instrument Serif', serif;
+
+}
+.segmento2{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        
+}
+
+.segmento2 div{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Instrument Serif', serif;
+
+}
+
+.masdirecciones{
+    position: relative;
+    padding: 10px 15px;
+    border:none;
+    outline:none;
+    background: #350642;
+    color: #dcc2e4;
+    transition: .5s;
+    overflow:hidden ;
+
+}
+.masdirecciones:hover{
+    color:#fff ;
+}
+.masdirecciones span{
+    position: absolute;
+    background-color: #fff;
+    transition: .5s;
+}
+.masdirecciones span:nth-child(1){
+    width: 100%;
+    height: 1px;
+    left: -100%;
+    top: 0;    
+}
+.masdirecciones span:nth-child(2){
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+}
+.masdirecciones span:nth-child(3){
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;    
+}
+    
+.masdirecciones span:nth-child(4){
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+.masdirecciones:hover span:nth-child(1){
+    left:0;
+}
+.masdirecciones:hover span:nth-child(2){
+    right: 0;
+}
+.masdirecciones:hover span:nth-child(3){
+    bottom: 0;
+}
+.masdirecciones:hover span:nth-child(4){
+    top: 0;
+}
+  
+
+
+
+   
+
+.pyp {font-size: 50px;
+display: flex;
+justify-content: center;}
+
+.vs{font-size: 50px;
+    display: flex;
+    justify-content: center;}
+
+.mt{font-size: 50px;
+    display: flex;
+    justify-content: center;}
