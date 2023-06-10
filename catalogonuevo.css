@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* aca comienza mi ccs del header */
+.tiempos{
+    background-color: #e8bae8;
+    text-align: center;
+    margin-top: 2px;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+#bs {
+   font-size: 30px;
+}
+#bag{
+   position: absolute;
+   right: 120px;
+    font-size: 40px;
+    background: #e8bae8;
+    border-radius: 50px ;
+
+
+}
+#nav1{ position: absolute;
+right: 300px;
+font-size:x-large;
+font-weight: bold;
+}
+
+#buscador{
+   display: flex;
+   margin-left: 60px;
+
+}
+
+
+#us{
+    position: absolute;
+    right: 50px;
+    font-size: 40px;
+    background: #e8bae8;
+    border-radius: 20px ;
+
+}
+
+#in{
+    position: absolute;
+    left: 720px;
+     font-size: 20px;
+    
+
+ }
+/* navegador 2*/
+.navegador2{
+    display: flex;
+    height: 40px;
+    background-color:#fcbdf2;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  /* Comienza mi asidemodificado */
+  #sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #b72191;
+    left: -200px;
+    transition: all 500ms linear;
+  }
+  
+  #sidebar.active {
+    left: 0px;
+  }
+  
+  #sidebar ul li {
+    color: rgba(230, 230, 230, .9);
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(205, 20, 230, 0.783);
+    text-align: center;
+  }
+  
+  .logo {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  #sidebar .toggle-btn {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+  }
+  
+  #sidebar .toggle-btn span {
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid hwb(317 5% 41%);
+  }
