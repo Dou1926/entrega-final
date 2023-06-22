@@ -27,8 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <form class="d-flex ms-5" role="search">
                 <section id="buscador"> 
-                <input class="form-control me-2" type="search" placeholder="Buscador" aria-label=>
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                
               </form>
             </section>
     
@@ -65,6 +64,10 @@
                   </li>
                 </ul>
               </section>
+
+              <input type="text" id="campo-de-busqueda" name="campo-de-busqueda">
+              <button onclick="search()">Buscar</button>
+              <div id="searchResults"></div>
            
            
         </header>
@@ -225,5 +228,6 @@
 
   
       <script src="catalogonuevo.js"></script>
+      <script src="buscador.js"></script>
     </body>
   </html>
